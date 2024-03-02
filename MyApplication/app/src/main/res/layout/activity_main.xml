@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+
+    android:background="@color/greean_500"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nameView1"
+            android:layout_width="136dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Greean"
+            android:backgroundTint="@color/Greean"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameView2"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Greean"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/Greean"
+            android:gravity="left"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/lavender_border"
+        android:focusable="false"
+        app:closeIcon="@drawable/baseline_clear_24"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search..."
+        app:searchHintIcon="@null"
+        app:searchIcon="@drawable/baseline_search_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recyclerView1"
+    android:scrollbars="vertical"/>
+
+
+    <Button
+        android:id="@+id/fab1p"
+        android:layout_width="73dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginStart="40dp"
+
+        android:layout_marginRight="32dp"
+
+        android:drawableLeft="@drawable/baseline_person_24_w"
+        app:tint="@color/white" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "264202972141",
+    "project_id": "my-application-aefad",
+    "storage_bucket": "my-application-aefad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264202972141:android:cb1bc2e9a9df79954555e4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrVz0csfCoUtF-ys-zT7BkcFY8dzfP80E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

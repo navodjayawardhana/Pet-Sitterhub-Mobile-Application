@@ -1,0 +1,1 @@
+First remove my firebase database and add a new database
